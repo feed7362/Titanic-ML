@@ -10,6 +10,8 @@ List and briefly describe the main files in your repository:
 
 - Titanic(ML).ipynb: Jupyter notebook containing the main analysis, modeling code and some statistic.
 
+- Titanic(ML) V2.ipynb: Jupyter notebook containing the extended analysis, modeling code and extended statistic.
+
 - train.csv: CSV file containing the training dataset.
 
 - test.csv: CSV file containing the test dataset for making predictions.
@@ -40,13 +42,13 @@ Install dependencies:
 ```sh
 pip install -r requirements.txt
 ```
-Open and run the Titanic(ML).ipynb notebook using Jupyter or any compatible environment.
+Open and run the Titanic(ML).ipynb or Titanic(ML) V2.ipynb notebook using Jupyter or any compatible environment.
 
 # Approach
 
 - Data preprocessing: Handling missing values, feature engineering.
 
-- Model selection: Random Forest
+- Model selection: Random Forest, Comon Neighbour
 
 - Model evaluation: Score.
 
@@ -54,7 +56,9 @@ Open and run the Titanic(ML).ipynb notebook using Jupyter or any compatible envi
 
 Accuracy achieved on the test set.
 
-- Kaggle accuracy:  0.77751
+- Kaggle accuracy:  0.77751 (4000-5000 place in leaderboard)
+
+- Kaggle accuracy for exnded version:  0.78229 (2882 place in leaderboard)
 
 - Random accuracy from dataset: 0.7864
 
